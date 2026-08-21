@@ -30,11 +30,11 @@ echo 'VITE_API_KEY="BACKEND_API_SIFRESI"' > .env
 npm run dev
 ```
 ## 📂 Proje Yapısı (Component Architecture)
-* **src/routes/index.tsx: Ana uygulama mantığı, sürükle-bırak (Drag & Drop) dosya yönetimi ve koordinat hesaplama algoritmaları (Core view).
+* src/routes/index.tsx: Ana uygulama mantığı, sürükle-bırak (Drag & Drop) dosya yönetimi ve koordinat hesaplama algoritmaları (Core view).
 
-* **src/components/ui/: Yeniden kullanılabilir, Tailwind tabanlı atomik tasarım bileşenleri (Butonlar, Kartlar vb.).
+* src/components/ui/: Yeniden kullanılabilir, Tailwind tabanlı atomik tasarım bileşenleri (Butonlar, Kartlar vb.).
 
-* **src/lib/: Yardımcı fonksiyonlar (Utility functions).
+* src/lib/: Yardımcı fonksiyonlar (Utility functions).
 
 ## 🔗 Bağımlılıklar (Dependencies)
 Bu proje arka planda verileri işlemek için DentaScan Backend API servisine ihtiyaç duyar. Arayüzün çalışması için backend sunucusunun ayağa kaldırılmış olması zorunludur.
