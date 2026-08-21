@@ -17,7 +17,7 @@ DentaScan Frontend, diş hekimleri ve klinikler için tasarlanmış, model çık
 ## ⚙️ Kurulum (Local Development)
 
 ```bash
-git clone [https://github.com/recepdoruk58/dentascan-frontend.git](https://github.com/recepdoruk58/dentascan-frontend.git)
+git clone https://github.com/recepdoruk58/dentascan-frontend.git
 cd dentascan-frontend
 
 # Paketleri kurun
