@@ -28,7 +28,7 @@ echo 'VITE_API_KEY="BACKEND_API_SIFRESI"' > .env
 
 # Vite sunucusunu başlatın
 npm run dev
-
+```
 📂 Proje Yapısı (Component Architecture)
 src/routes/index.tsx: Ana uygulama mantığı, sürükle-bırak (Drag & Drop) dosya yönetimi ve koordinat hesaplama algoritmaları (Core view).
 
